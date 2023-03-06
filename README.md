@@ -18,15 +18,8 @@ Customized theme for my own use.
 
 - `Source Han Serif CN`
 - `JetBrains Mono`
-
-## Code Example
-
-```
-
-```
-
-
+- `Cantarell`
 
 ## Screenshot
 
-![image-20221105211124343](http://cdn.just-plain.fun/img/image-20221105211124343.png)
+![image-20230306091935190](https://cdn.just-plain.fun/img/image-20230306091935190.png)
