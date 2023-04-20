@@ -365,12 +365,28 @@ li.md-list-item {
 margin: 0.4rem 0;
 }
 
+#typora-sidebar {
+font-family: 'Cantarell','Source Han Serif CN';
+display: block;
+height: 100%;
+color: #686d75;
+line-height: 1.2rem;
+font-size: 0.8rem;
+min-width: 50px;
+background-color: white;
+}
+
 #outline-content {
 display: block;
 height: 100%;
 overflow-x: hidden;
-line-height: 1.1rem;
+line-height: 1.2rem;
+font-size: 0.9rem;
 min-width: 50px;
+}
+
+#outline-content::-webkit-scrollbar {
+width:0rem;
 }
 
 pre.CodeMirror-line {
@@ -381,4 +397,21 @@ padding: 0 1.2rem;
 padding: 0 3px 0 5px;
 text-align: right;
 color: #4870ac;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-radius:10px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+background:rgba(179, 179, 179, 0.425);
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar {
+width:1rem;
 }
