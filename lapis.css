@@ -1,10 +1,8 @@
-
 :root {
   --text-color: rgb(58, 71, 73);
   --theme-color: #4870ac;
   --block-background-color: #f6f8fa;
-  --marker-color: #a2b6d452;
-  --code-clock-light-color: #b9218e;
+  --marker-color: #a2b6d4;
 }
 
 /*
@@ -13,9 +11,23 @@
 
 @font-face {
   font-family: "Cantarell";
-  font-weight: 400;
-  font-style: normal;
-  src: url('lapis/Cantarell.ttf') format('truetype')
+  src: url('lapis/Cantarell-Regular.ttf');
+}
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url('lapis/JetBrainsMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: "SourceHanSerifCN";
+  src: url('lapis/SourceHanSerifCN-Regular.otf');
+}
+
+@font-face {
+  font-family: "SourceHanSerifCN";
+  src: url('lapis/SourceHanSerifCN-Bold.otf');
+  font-weight: bold;
 }
 
 /*
@@ -32,9 +44,12 @@
     word-break: break-word;
     word-wrap: break-word;
     text-align: left;
-    font-family: 'Cantarell','Source Han Serif CN','JetBrains Mono';
+    
+    /* font-family: 'Cantarell','Source Han Serif CN','JetBrains Mono'; */
+    font-family: 'Cantarell','SourceHanSerifCN','JetBrainsMono';
     margin-bottom: 20rem;
 }
+
 
 #write strong {
   color:var(--theme-color);
@@ -85,7 +100,6 @@
 #write h6 {
   margin: 1em 0 1em;
   padding: 0px;
-  font-weight: bold;
   color: var(--theme-color);
 }
 
@@ -167,7 +181,7 @@
   border-radius: 3px;
   margin: 2px;
   background-color:  var(--block-background-color);
-  font-family: 'JetBrains Mono';
+  font-family: 'JetBrainsMono';
   word-break: break-all;
 }
 
@@ -303,7 +317,7 @@ li.md-list-item {
  * Sidebar - FileNode
  */
 
-.info-panel-tab-wrapper {
+ .info-panel-tab-wrapper {
   width: 100%;
   display: flex;
   height: 2px;
@@ -316,15 +330,16 @@ li.md-list-item {
   background-color: var(--theme-color);
 }
 
+.file-node-content { color: var(--theme-color); }
+span.file-node-title-name-part  { color: var(--text-color); }
+span.file-node-title-ext-part { color: var(--text-color); }
+.file-node-icon { padding-right: 0.2rem; }
+
 .file-tree-node.active>.file-node-background {
   background-color: var(--block-background-color);
   border-left: 4px solid var(--theme-color);
   border-color: var(--theme-color);
 }
-
-.file-node-content { color: var(--marker-color); }
-span.file-node-title-name-part  { color: var(--text-color); }
-span.file-node-title-ext-part { color: var(--text-color); }
 
 /*
  * Sidebar - Outline
@@ -386,7 +401,7 @@ span.file-node-title-ext-part { color: var(--text-color); }
   margin: 2rem 0;
   padding: 1.2rem .8rem;
   color: #4f5467;
-  font-family: 'JetBrains Mono';
+  font-family: 'JetBrainsMono';
   border-radius: 10px;
   background-color: var(--block-background-color);
   /* border: 1px solid #eef2f5;*/
@@ -394,7 +409,7 @@ span.file-node-title-ext-part { color: var(--text-color); }
 }
 
 .CodeMirror-gutters {
-  border-right: 1px solid var(--marker-color)52;
+  border-right: 1px solid #a2b6d452;
   background: inherit;
   white-space: nowrap;
 }
@@ -425,7 +440,7 @@ pre.CodeMirror-line {
 .cm-s-inner .cm-tag,
 .cm-s-inner .cm-property
 .cm-s-inner .cm-quote {
-  color: var(--code-clock-light-color) !important;
+  color: #b9218e !important;
 }
 
 .cm-s-inner .cm-variable-2 {
