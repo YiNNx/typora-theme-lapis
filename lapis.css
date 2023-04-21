@@ -1,8 +1,9 @@
 :root {
   --text-color: rgb(58, 71, 73);
-  --theme-color: #4870ac;
+  --primary-color: #4870ac;
   --block-background-color: #f6f8fa;
   --marker-color: #a2b6d4;
+  --control-text-hover-color: #a2b6d4;
 }
 
 /*
@@ -52,21 +53,15 @@
 
 
 #write strong {
-  color:var(--theme-color);
-}
-
-#write u {
-  color:var(--code-clock-light-color);
-  font-weight: bold;
-  padding: 0 0.2rem;
+  color:var(--primary-color);
 }
 
 #write a {
   text-decoration: none;
   word-wrap: break-word;
   font-weight: bold;
-  color: var(--theme-color);
-  border-bottom: 1px solid var(--theme-color);
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
   margin: 2px;
 }
 
@@ -100,7 +95,7 @@
 #write h6 {
   margin: 1em 0 1em;
   padding: 0px;
-  color: var(--theme-color);
+  color: var(--primary-color);
 }
 
 #write h1 {
@@ -110,7 +105,7 @@
 #write h2 span {
  display: inline-block;
  font-weight: bold;
- background: var(--theme-color);
+ background: var(--primary-color);
  color: #ffffff;
  padding: 1px 15px 1px;
  border-radius: 4px;
@@ -162,7 +157,7 @@
   display: block;
   font-size: .9em;
   overflow: auto;
-  border-left: 3px solid var(--theme-color);
+  border-left: 3px solid var(--primary-color);
   padding: 15px 30px 15px 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -174,7 +169,7 @@
  */
 #write p code,
 #write li code {
-  color: var(--theme-color);
+  color: var(--primary-color);
   font-size: 1rem;
   word-wrap: break-word;
   padding: 2px 4px 2px;
@@ -195,9 +190,11 @@
 }
 
 #write span img {
-  display: inline-block;
-  border-right: 0px;
-  border-left: 0px;
+  filter: drop-shadow(#d2dff4 0px 0px 8px);
+  border-radius: 3rem;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 /*
@@ -233,7 +230,7 @@
   #write table tr th {
     font-weight: bold;
     background-color: #ffffff;
-    color: var(--theme-color);
+    color: var(--primary-color);
   }
   
   table.md-table td {
@@ -246,7 +243,7 @@
  */
 #write .md-footnote {
  font-weight: bold;
- color: var(--theme-color);
+ color: var(--primary-color);
 }
 #write .md-footnote > .md-text:before {
  content: '['
@@ -299,6 +296,38 @@ li.md-list-item {
   margin: 0.4rem 0;
 }
 
+/* Checkbox */
+
+#write input[type=checkbox] {
+  width: 0;
+}
+
+.task-list-item input::before {
+  content: "";
+  display: inline-block;
+  width: 1.0125rem;
+  height: 1.0125rem;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid var(--marker-color);
+  border-radius: 1.2rem;
+  background-color: #fdfdfd;
+  margin-left: -0.1rem;
+  margin-right: 0.1rem;
+  margin-top: -.6rem;
+}
+
+
+.task-list-item input:checked::before {
+  content: '✓';
+  font-weight: bold;
+  -webkit-text-stroke: 1px var(--primary-color);
+  color: var(--primary-color);
+  background-color: white;
+  font-size: 0.75rem;
+  line-height: 0.8rem;
+}
+
 /*
  * Sidebar
  */
@@ -327,18 +356,18 @@ li.md-list-item {
 .active-tab-files #info-panel-tab-file .info-panel-tab-border, .active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
   border-radius:10px;
   height: 1px;
-  background-color: var(--theme-color);
+  background-color: var(--primary-color);
 }
 
-.file-node-content { color: var(--theme-color); }
+.file-node-content { color: var(--primary-color); }
 span.file-node-title-name-part  { color: var(--text-color); }
 span.file-node-title-ext-part { color: var(--text-color); }
 .file-node-icon { padding-right: 0.2rem; }
 
 .file-tree-node.active>.file-node-background {
   background-color: var(--block-background-color);
-  border-left: 4px solid var(--theme-color);
-  border-color: var(--theme-color);
+  border-left: 4px solid var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 /*
@@ -421,7 +450,7 @@ pre.CodeMirror-line {
 .CodeMirror-linenumber {
   padding: 0 3px 0 5px;
   text-align: right;
-  color: var(--theme-color);
+  color: var(--primary-color);
 }
 
 /* 
@@ -485,7 +514,7 @@ pre.CodeMirror-line {
   color: white !important;
 }
 .CodeMirror div.CodeMirror-cursor {
-  border-left: 1px solid var(--theme-color);
+  border-left: 1px solid var(--primary-color);
   z-index: 3;
 }
 
