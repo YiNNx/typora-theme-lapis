@@ -4,9 +4,9 @@
 
 ## 简介
 
-无论是文本编辑还是代码编辑，一直偏爱用浅色主题，然而一直没有找到一款舒适顺手的 Typora 浅色主题，于是自己写了一个。
+无论是文本编辑还是代码编辑，一直喜欢用浅色主题，然而一直没有找到一款舒适顺手的 Typora 浅色主题，于是自己写了一个。
 
-最初的想法是支持浅色主题和浅色代码块，结合 Markdown 的特性呈现简洁的界面和多样的层次。在自己使用的半年期间，又逐渐对各种排版细节进行调整，优化了长文章阅读和书写体验。目前中英文阅读书写体验都挺不错。
+支持浅色主题和浅色代码块，结合 Markdown 的特性尽可能呈现简洁的界面和多样的层次。在自己使用的半年期间，又逐渐对各种排版细节进行调整，优化了长文章阅读和书写体验。目前中英文阅读书写体验都挺不错。
 
 > 初始样式代码基于 [evgo2017](https://github.com/evgo2017) 的 [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart)。
 >
@@ -14,13 +14,11 @@
 
 ## 预览
 
-- 整体效果
+整体效果![preview](imgs/preview1.png)
 
-![image-20230421164627751](https://cdn.just-plain.fun/img/image-20230421195423663.png)
+样式支持
 
-- 样式支持
-
-![image-20230421193959107](https://cdn.just-plain.fun/img/image-20230421195937142.png)
+![preview](imgs/preview2.png)
 
 
 ## Features
@@ -40,7 +38,7 @@
 
 由于这款主题是在 Linux 版本下编写，其他平台上有概率出现一些意想不到的问题。
 
-如果你遇到问题或有任何建议，欢迎提交 [GitHub Issues](https://github.com/your-username/lapis-typora-theme/issues)。感谢你的反馈和贡献！
+如果你遇到问题或有任何建议，欢迎提交 [GitHub Issues](https://github.com/yinnx/lapis-typora-theme/issues)。感谢你的反馈和贡献！
 
 ## 许可
 
