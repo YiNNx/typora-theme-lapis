@@ -67,7 +67,7 @@
   margin: 2px;
 }
 
-/*  */
+/* mark */
 
 mark {
   background: #ffffb5;
@@ -228,7 +228,11 @@ li.md-list-item {
   display: block;
   overflow-x: auto;
   text-align: left;
-  min-width: 850px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  font-size: 1em;
+  margin: 0px 0px 20px;
+  width: 100%;
 }
 #write tbody {
   border: 0;
@@ -249,6 +253,7 @@ li.md-list-item {
   text-align: left;
 }
   #write table tr th {
+    min-width: 10rem;
     font-weight: bold;
     background-color: #ffffff;
     color: var(--primary-color);
