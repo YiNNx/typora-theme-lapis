@@ -62,7 +62,6 @@
 #write a {
   text-decoration: none;
   word-wrap: break-word;
-  font-weight: bold;
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
   margin: 2px;
@@ -104,6 +103,7 @@ mark {
 #write h4,
 #write h5,
 #write h6 {
+  font-family: 'SourceHanSerifCN';
   margin: 1em 0 1em;
   padding: 0px;
   color: var(--primary-color);
@@ -133,6 +133,16 @@ mark {
 /*
  * List
  */
+
+::marker {
+  font-weight: bold;
+  color: var(--marker-color);
+}
+
+li.md-list-item {
+  margin: 0.4rem 0;
+}
+
 #write ul,
 #write ol {
   margin-top: 8px;
@@ -144,7 +154,7 @@ mark {
   list-style-type: disc;
 }
 
-#write ul {
+#write ul ul {
   list-style-type: square;
 }
 
@@ -294,17 +304,6 @@ hr {
   border: 0;
   border-top: 2px solid #eef2f5;
   border-radius: 2px;
-}
-
-
-/* Marker */
-::marker {
-  font-weight: bold;
-  color: var(--marker-color);
-}
-
-li.md-list-item {
-  margin: 0.4rem 0;
 }
 
 /* Checkbox */
