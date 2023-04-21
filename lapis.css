@@ -51,10 +51,13 @@
     margin-bottom: 20rem;
 }
 
+/* Strong */
 
 #write strong {
   color:var(--primary-color);
 }
+
+/* Link */
 
 #write a {
   text-decoration: none;
@@ -63,6 +66,14 @@
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
   margin: 2px;
+}
+
+/*  */
+
+mark {
+  background: #ffffb5;
+  padding: 1px .15rem;
+  border-radius: 1px;
 }
 
 /* 
@@ -467,7 +478,7 @@ pre.CodeMirror-line {
 .cm-s-inner .cm-builtin,
 .cm-s-inner .cm-header,
 .cm-s-inner .cm-tag,
-.cm-s-inner .cm-property
+.cm-s-inner .cm-property,
 .cm-s-inner .cm-quote {
   color: #b9218e !important;
 }
