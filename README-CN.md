@@ -1,6 +1,13 @@
 <h1 align="center">Typora Theme - Lapis</h1>
 <p align="center">🖊️ 一款以蓝色为主色调的 Typora 浅色主题</p>
-<p align="center"><a href="https://github.com/YiNNx/typora-theme-lapis/blob/master/README.md">English</a> | 简体中文</p>
+<div align="center">
+<div>
+<img src="imgs/preview5.png" width="40%" />
+<img src="imgs/preview6.png" width="40%" />
+</div>
+</div>
+<p align="center"><a href="https://github.com/YiNNx/typora-theme-lapis/blob/master/README.md">English</a> / 简体中文</p>
+
 
 ## 简介
 
@@ -14,11 +21,11 @@
 
 ## 预览
 
-整体效果![preview](imgs/preview1.png)
+整体效果![preview](https://cdn.just-plain.fun/img/preview1.png)
 
 样式支持
 
-![preview](imgs/preview2.png)
+![preview](https://cdn.just-plain.fun/img/preview2.png)
 
 
 ## Features
@@ -31,8 +38,8 @@
 
 1. 从此仓库下载解压获得 `lapis.css` 文件和 `lapis` 文件夹。
 2. 在 Typora 菜单中选择 偏好设置 (Preferences) -> 找到外观部分，点击“打开主题文件夹”按钮。
-4. 将 `lapis.css` 文件和 `lapis` 文件夹复制到 Typora 的主题文件夹中。
-5. 重启 Typora，然后从主题列表中选择 “Lapis”。
+3. 将 `lapis.css` 文件和 `lapis` 文件夹复制到 Typora 的主题文件夹中。
+4. 重启 Typora，然后从主题列表中选择 “Lapis”。
 
 ## 贡献
 
