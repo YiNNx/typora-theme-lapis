@@ -31,12 +31,12 @@
 ## Features
 
 - 支持英文和简体中文，并优化了中英长文章阅读体验，正文字体中文使用[思源宋体](https://source.typekit.com/source-han-serif/cn/)，英文使用[Cantarell](https://fonts.google.com/specimen/Cantarell)。
-- 结合 Markdown 的特性呈现简洁的界面和多样的层次。同时还包括 Sidebar 样式支持。
-- 浅色代码块主题，字体为`Jetbrains Mono`，配色灵感来自 VSCode Theme - Winter is Coming。
+- 结合 Markdown 的特性呈现简洁的界面和多样的层次。同时还包括 Sidebar 等样式支持。
+- 浅色代码块主题，代码字体使用 [Jetbrains Mono](https://www.jetbrains.com/lp/mono/)，配色灵感来自 VSCode Theme - [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics)。
 
 ## 安装
 
-1. 从此仓库下载解压获得 `lapis.css` 文件和 `lapis` 文件夹。
+1. Clone 此仓库，或 [下载 ZIP 文件](https://cdn.just-plain.fun/static/lapis_latest.zip) 并解压。
 2. 在 Typora 菜单中选择 偏好设置 (Preferences) -> 找到外观部分，点击“打开主题文件夹”按钮。
 3. 将 `lapis.css` 文件和 `lapis` 文件夹复制到 Typora 的主题文件夹中。
 4. 重启 Typora，然后从主题列表中选择 “Lapis”。
@@ -45,7 +45,7 @@
 
 由于这款主题是在 Linux 版本下编写，其他平台上有概率出现一些意想不到的问题。
 
-如果你遇到问题或有任何建议，欢迎提交 [GitHub Issues](https://github.com/yinnx/lapis-typora-theme/issues)。感谢你的反馈和贡献！
+如果你遇到问题或有任何建议，欢迎提交 [GitHub Issues](https://github.com/yinnx/typora-theme-lapis/issues)。感谢你的反馈和贡献！
 
 ## 许可
 

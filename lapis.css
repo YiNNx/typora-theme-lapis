@@ -402,6 +402,20 @@ span.file-node-title-ext-part { color: var(--text-color); }
   padding-left: 2em;
 }
 
+/* Meta Block */
+
+pre.md-meta-block {
+  font-family: 'JetBrainsMono';
+  color: var(--primary-color);
+  background: #f6f8fa;
+  padding: 1.5rem;
+  margin: -37px 0rem 3.8rem;
+  /* border-radius: 1rem; */
+  filter: drop-shadow(#d2dff4 0px 3px 3px);
+  /* border-top: 1px solid var(--primary-color); */
+  /* border-bottom: 1px solid var(--primary-color); */
+}
+
 /*
  * Scrollbar
  */
