@@ -1,5 +1,5 @@
 <h1 align="center">Typora Theme - Lapis</h1>
-<p align="center">🖊️ An Refreshing Light Typora Theme in Blue Tones</p>
+<p align="center">🖊️ A Refreshing Light Typora Theme in Blue Tones</p>
 <div align="center">
 <div>
 <img src="imgs/preview5.png" width="40%" />
