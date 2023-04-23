@@ -37,7 +37,7 @@
 
 #write {
     max-width: 950px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--text-color);
     line-height: 1.6;
     word-spacing: 0px;
@@ -73,6 +73,7 @@ mark {
   background: #ffffb5;
   padding: 1px .15rem;
   border-radius: 1px;
+  color: inherit;
 }
 
 /* 

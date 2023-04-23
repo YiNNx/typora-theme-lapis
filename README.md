@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Lapis is a refreshing light theme for Typora, with English & Simplified Chinese supported.
+Lapis is a refreshing light theme for Typora, with English & 简体中文 supported.
 
 > Lapis's style code is initially based on [evgo2017](https://github.com/evgo2017)'s [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart).
 >
@@ -21,6 +21,8 @@ Lapis is a refreshing light theme for Typora, with English & Simplified Chinese 
 Overall
 
 ![](imgs/preview3.png)
+
+![preview](imgs/preview1.png)
 
 Styles Supported
 

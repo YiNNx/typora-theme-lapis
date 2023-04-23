@@ -21,11 +21,13 @@
 
 ## 预览
 
-整体效果![preview](https://cdn.just-plain.fun/img/preview1.png)
+整体效果![preview](imgs/preview1.png)
+
+![](https://cdn.just-plain.fun/img/preview3.png)
 
 样式支持
 
-![preview](https://cdn.just-plain.fun/img/preview2.png)
+![preview](imgs/preview2.png)
 
 
 ## Features
