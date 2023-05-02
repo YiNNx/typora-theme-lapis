@@ -30,7 +30,7 @@ Styles Supported
 
 ## Features
 
-- Supports English & 简体中文 with fonts [Cantarell](https://fonts.google.com/specimen/Cantarell) and [Source Han Serif](https://source.typekit.com/source-han-serif/cn/).
+- Supports English & [简体中文](https://github.com/YiNNx/typora-theme-lapis/blob/master/README-CN.md) with fonts [Cantarell](https://fonts.google.com/specimen/Cantarell) and [Source Han Serif](https://source.typekit.com/source-han-serif/cn/).
 - Combines Markdown features to present a clean interface and a comfortable visual hierarchy.
 - Provides a light code color scheme inspired by VSCode's [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics), with the font [Jetbrains Mono](https://www.jetbrains.com/lp/mono/).
 
@@ -53,4 +53,6 @@ The Lapis Typora theme is released under the MIT License. You are free to use, m
 
 ---
 
-Enjoy Markdown with Lapis! 📘
+Enjoy Markdown with Lapis 📘
+
+If you like this theme, please give me a STAR!
