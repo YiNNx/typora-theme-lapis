@@ -59,12 +59,24 @@
 
 /* Link */
 
-#write a {
+#write .md-end-block.md-p a  {
   text-decoration: none;
   word-wrap: break-word;
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
   margin: 2px;
+}
+
+/* 
+ * TOC
+ */
+
+.md-toc-content {
+  font-family: 'SourceHanSerifCN';
+}
+
+.md-toc-item {
+  color: var(--primary-color);
 }
 
 /* mark */
@@ -93,6 +105,8 @@ mark {
 #write div[mdtype=toc] {
   font-size: 1.1rem;
 }
+
+
 
 /*
  * Header
