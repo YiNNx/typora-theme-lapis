@@ -1,4 +1,9 @@
-:root {
+/* 
+ *   Typora Theme - Lapis  /  Author - YiNN 
+ *   https://github.com/YiNNx/typora-theme-lapis
+ */
+
+ :root {
   --text-color: rgb(58, 71, 73);
   --primary-color: #4870ac;
   --block-background-color: #f6f8fa;
@@ -138,7 +143,7 @@ mark {
 
 #write h2 span.md-plain {
   background: var(--primary-color);
-  padding: 1px 15px 3px;
+  padding: 1px 15px 2px;
   border-radius: 4px;
   font-weight: bold;
   color: #ffffff;
@@ -146,7 +151,7 @@ mark {
 
 #write h2 span.md-link {
  background: var(--primary-color);
- padding: 1px 12px 6px;
+ padding: 1px 11px 6px;
  border-radius: 4px;
 }
 

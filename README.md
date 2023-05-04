@@ -10,11 +10,11 @@
 
 ## Introduction
 
-Lapis is a refreshing light theme for Typora, with English & 简体中文 supported.
+Lapis is a refreshing light theme for Typora, with English & [简体中文](https://github.com/YiNNx/typora-theme-lapis/blob/master/README-CN.md) supported.
 
 > Lapis's style code is initially based on [evgo2017](https://github.com/evgo2017)'s [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart).
 >
-> The code color scheme was inspired by the VSCode theme [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics)
+> The code color scheme was inspired by the VSCode theme [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics).
 
 ## Preview
 
@@ -45,7 +45,13 @@ Styles Supported
 
 As developed on a Linux platform, this theme may have some unexpected issues on other platforms.
 
-If you have any issues or suggestions, please submit [GitHub Issues](https://github.com/YiNNx/typora-theme-lapis/issues). Thank you for your feedback and contributions!
+If you have any issues or suggestions, welcome to submit [Issues](https://github.com/YiNNx/typora-theme-lapis/issues). For any style fixing or new feature, welcome to submit [Pull Requests](https://github.com/YiNNx/typora-theme-lapis/pulls). Thank you for your feedback and contributions!
+
+## Credits
+
+- The style code is initially based on [evgo2017](https://github.com/evgo2017)'s [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart).
+
+- The code color scheme was inspired by the VSCode theme [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics)
 
 ## License
 
@@ -55,4 +61,4 @@ The Lapis Typora theme is released under the MIT License. You are free to use, m
 
 Enjoy Markdown with Lapis 📘
 
-If you like this theme, please give me a STAR!
+If you like this theme, please give me a STAR :raised_hands:

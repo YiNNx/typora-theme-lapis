@@ -45,9 +45,17 @@
 
 ## 贡献
 
-由于这款主题是在 Linux 版本下编写，其他平台上有概率出现一些意想不到的问题。
+这款主题最初是在 Linux 版本下编写和使用，其他平台上有概率出现一些意想不到的问题；同时由于主题样式大部分是基于作者的日常使用而编写，可能会有许多未发现的样式 bug。
 
-如果你遇到问题或有任何建议，欢迎提交 [GitHub Issues](https://github.com/yinnx/typora-theme-lapis/issues)。感谢你的反馈和贡献！
+如果你遇到问题或有任何建议和想法，欢迎直接提交 [Issues](https://github.com/yinnx/typora-theme-lapis/issues)！
+
+任何样式的修复和新特性的增加，欢迎提交 [Pull Request](https://github.com/YiNNx/typora-theme-lapis/pulls)，感谢你的反馈和贡献！
+
+## 致谢
+
+- 初始样式代码基于 [evgo2017](https://github.com/evgo2017) 的 [typora-theme-orange-heart](https://github.com/evgo2017/typora-theme-orange-heart)。
+
+- 代码配色灵感来自 VSCode 主题  [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics)。
 
 ## 许可
 
