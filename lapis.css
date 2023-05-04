@@ -245,10 +245,11 @@ li.md-list-item {
 /*
  * Inline code
  */
-#write p code,
-#write li code {
+
+#write code {
   color: var(--primary-color);
-  font-size: 1rem;
+  font-size: 94%;
+  font-weight: normal;
   word-wrap: break-word;
   padding: 2px 4px 2px;
   border-radius: 3px;
