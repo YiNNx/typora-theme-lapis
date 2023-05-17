@@ -18,6 +18,7 @@
   --bg-color: #1e222a;
   --select-text-bg-color: #dae3ea2e;
   --window-border: 1px solid #1e222a;
+  --rawblock-edit-panel-bd: #080e1d;
 }
 
 
@@ -56,7 +57,7 @@ mark {
 }
 
 #write span img {
-  filter: drop-shadow(#d2dff46c 0px 0px 8px);
+  filter: drop-shadow(var(--block-background-color) 0px 0px 8px);
 }
 
 #write table tr th,
@@ -84,6 +85,24 @@ table.md-table td {
 
 #write hr{
     border-top: 1px solid var(--header-span-color);
+}
+
+.md-comment {
+  color: var(--header-span-color);
+}
+
+pre.md-meta-block {
+  background: #2a2f3b;
+  filter: drop-shadow(var(--block-background-color) 0px 3px 3px);
+}
+
+cm-s-inner .cm-link, .cm-s-inner.cm-link {
+  color:  #42a5f5;
+}
+
+.cm-s-typora-default .cm-link {
+  color: #42a5f5;
+  text-decoration: underline;
 }
 
 /* 
