@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Cantarell";
-  src: url('lapis/Cantarell-Regular.ttf');
+  src: url('lapis/Cantarell-VF.otf');
 }
 
 @font-face {
@@ -313,11 +313,8 @@ li.md-list-item {
 #write table tr {
   border: 0;
   border-top: 1px solid #ccc;
-  background-color: white;
 }
-#write table tr:nth-child(2n) {
-  background-color: #F8F8F8;
-}
+
 #write table tr th,
 #write table tr th, #write table tr td {
   font-size: 1rem;
@@ -326,15 +323,14 @@ li.md-list-item {
   text-align: justify;
 }
 #write table tr th {
+  text-align: center;
   min-width: 10rem;
   font-weight: bold;
-  background-color: #ffffff;
   color: var(--primary-color);
 }
 
 table.md-table td {
   min-width: 32px;
-  background-color: white;
 }
 
 /*
