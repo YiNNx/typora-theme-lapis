@@ -82,6 +82,10 @@ table.md-table td {
   background-color: var(--bg-color);
 }
 
+#write hr{
+    border-top: 1px solid var(--header-span-color);
+}
+
 /* 
  * Code Block - Style
  */
