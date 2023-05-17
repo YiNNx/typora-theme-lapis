@@ -432,13 +432,14 @@ hr {
  */
 #typora-sidebar {
   font-family: 'Cantarell','Source Han Serif CN';
-  display: block;
   height: 100%;
   color: #686d75;
-  line-height: 1.2rem;
-  font-size: 0.8rem;
-  min-width: 50px;
+  font-size: 0.92rem;
   background-color: white;
+}
+
+#sidebar-content.sidebar-content {
+  margin-top: .5rem;
 }
 
 /*
@@ -453,7 +454,11 @@ hr {
   background-color: var(--primary-color);
 }
 
-.file-node-content { color: var(--primary-color); }
+.file-node-content {
+   color: var(--primary-color); 
+   line-height: 1.6rem;
+  }
+
 span.file-node-title-name-part  { color: var(--text-color); }
 span.file-node-title-ext-part { color: var(--text-color); }
 .file-node-icon { padding-right: 0.2rem; }
@@ -469,11 +474,10 @@ span.file-node-title-ext-part { color: var(--text-color); }
  */
 
 #outline-content {
-  display: block;
   height: 100%;
   overflow-x: hidden;
-  line-height: 1.2rem;
-  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-size: .96rem;
 }
 
 .outline-item {
