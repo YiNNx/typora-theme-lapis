@@ -4,7 +4,7 @@
  */
 
  :root {
-  --text-color: rgb(58, 71, 73);
+  --text-color: rgb(58 64 73 / 97%);
   --primary-color: #4870ac;
   --block-background-color: #f6f8fa;
   --marker-color: #a2b6d4;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "SourceHanSerifCN";
-  src: url('lapis/SourceHanSerifCN-Regular.otf');
+  src: url('lapis/SourceHanSerifCN-Medium.otf');
 }
 
 @font-face {
@@ -41,8 +41,8 @@
  */
 
 #write {
-    max-width: 68%;
-    font-size: 1.14rem;
+    max-width: 950px;
+    font-size: 1.1rem;
     color: var(--text-color);
     line-height: 1.6;
     word-spacing: 0px;
@@ -79,7 +79,7 @@
 [md-inline=url], [md-inline=link]>.md-content, [md-inline=image]>.md-meta {
   word-break: break-all;
   font-weight: normal;
-  font-family: 'JETBRAINSMONO';
+  font-family: 'JetBrainsMono';
   padding-left: 0.15rem;
   padding-right: 0.15rem;
   color: #a2b6d4;
@@ -168,15 +168,28 @@ mark {
   border-bottom: 1px solid white;
 }
 
-#write h1 { font-size: 2.2rem; }
-#write h2 { font-size: 1.6rem; }
-#write h3 { font-size: 1.5rem; }
-#write h4 { font-size: 1.3rem; }
+@media print{
+  #write h2 span {
+     display: inline-block;
+     font-weight: bold;
+     background: var(--primary-color);
+     color: #ffffff;
+     padding: 1px 15px 1px;
+     border-radius: 4px;
+     margin-right: 3px;
+    }
+}
+
+#write h1 { font-size: 2rem; }
+#write h2 { font-size: 1.5rem; }
+#write h3 { font-size: 1.4rem; }
+#write h4 { font-size: 1.2rem; }
 #write h5 { font-size: 1.1rem; }
 #write h6 { font-size: 1.1rem; }
 
 #write h1 {
-  margin-bottom: 2.2rem;
+  padding-top: 0.9rem;
+  margin-bottom: 2.3rem;
 }
 
 #write h2 {
