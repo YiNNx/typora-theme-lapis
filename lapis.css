@@ -432,33 +432,33 @@ hr {
  */
 #typora-sidebar {
   font-family: 'Cantarell','Source Han Serif CN';
-  display: block;
   height: 100%;
   color: #686d75;
-  line-height: 1.2rem;
-  font-size: 0.8rem;
-  min-width: 50px;
+  font-size: 0.92rem;
   background-color: white;
+}
+
+#sidebar-content.sidebar-content {
+  margin-top: .5rem;
 }
 
 /*
  * Sidebar - FileNode
  */
 
- .info-panel-tab-wrapper {
-  width: 100%;
-  display: flex;
-  height: 2px;
-  -webkit-app-region: drag;
-}
-
-.active-tab-files #info-panel-tab-file .info-panel-tab-border, .active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
+.active-tab-files #info-panel-tab-file .info-panel-tab-border,
+.active-tab-outline #info-panel-tab-outline .info-panel-tab-border,
+.ty-show-search #info-panel-tab-search .info-panel-tab-border {
   border-radius:10px;
   height: 1px;
   background-color: var(--primary-color);
 }
 
-.file-node-content { color: var(--primary-color); }
+.file-node-content {
+   color: var(--primary-color); 
+   line-height: 1.6rem;
+  }
+
 span.file-node-title-name-part  { color: var(--text-color); }
 span.file-node-title-ext-part { color: var(--text-color); }
 .file-node-icon { padding-right: 0.2rem; }
@@ -474,12 +474,10 @@ span.file-node-title-ext-part { color: var(--text-color); }
  */
 
 #outline-content {
-  display: block;
   height: 100%;
   overflow-x: hidden;
-  line-height: 1.2rem;
-  font-size: 0.9rem;
-  min-width: 50px;
+  line-height: 1.4rem;
+  font-size: .96rem;
 }
 
 .outline-item {
