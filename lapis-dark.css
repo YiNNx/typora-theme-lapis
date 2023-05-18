@@ -216,3 +216,7 @@ cm-s-inner .cm-link, .cm-s-inner.cm-link {
 .cm-s-inner .CodeMirror-line > span > span::selection {
   background-color: rgba(167, 178, 189, 0.2);
 }
+
+.nav-group-item.active {
+  background: var(--primary-color) !important;
+}
