@@ -6,217 +6,294 @@
  @import "lapis.css";
 
  :root {
-  --md-char-color: #7d8a9f7d;
-  --search-select-bg-color: #428bca;
-  --text-color: #d0d1d5e3;
-  --primary-color: #8393ad;
-  --code-color: #abbad4;
-  --header-span-color: #47556d;
-  --block-background-color: #080e1d;
-  --marker-color: #7d8a9f;
-  --control-text-hover-color: #7d8a9f;
-  --bg-color: #1e222a;
-  --select-text-bg-color: #dae3ea2e;
-  --window-border: 1px solid #1e222a;
-  --rawblock-edit-panel-bd: #080e1d;
-}
-
-
-content {
-  background: var(--bg-color);
-}
-
-mark {
-  background: #ffffb5c2;
-  border-radius: 1px;
-  color: var(--bg-color);
-  padding: 0;
-
-}
-
-#write h2 span.md-plain {
-  background: var(--header-span-color);
-  color: var(--text-color);
-}
-
-#write h2 span.md-link {
- background: var(--header-span-color);
- color: var(--text-color);
-}
-
-#write h2.md-heading a {
-  border-bottom: 1px solid var(--text-color);
-}
-
-#write blockquote {
-  background: #2a2f3b;
-}
-
-#write code {
-  color: var(--code-color);
-}
-
-#write span img {
-  filter: drop-shadow(var(--block-background-color) 0px 0px 8px);
-}
-
-#write table tr th,
-#write table tr th, #write table tr td {
-  border: 1px solid var(--header-span-color);
-}
-#write table tr th {
-  background-color: var(--header-span-color);
-  color: var(--text-color);
-}
-
-table.md-table td {
-  background-color: var(--bg-color);
-}
-
-.task-list-item input:checked::before,
-.task-list-item input:before {
-  background-color: var(--bg-color);
-}
-
-#typora-sidebar {
-  color: var(--text-color);
-  background-color: var(--bg-color);
-}
-
-#write hr{
-    border-top: 1px solid var(--header-span-color);
-}
-
-.md-comment {
-  color: var(--header-span-color);
-}
-
-pre.md-meta-block {
-  background: #2a2f3b;
-  filter: drop-shadow(var(--block-background-color) 0px 3px 3px);
-}
-
-cm-s-inner .cm-link, .cm-s-inner.cm-link {
-  color:  #42a5f5;
-}
-
-.cm-s-typora-default .cm-link {
-  color: #42a5f5;
-  text-decoration: underline;
-}
-
-/* 
- * Code Block - Style
- */
-
-.md-fences:before {
-  background-color: #282c34;
-}
-
-
-.cm-s-inner.CodeMirror {
-  color: var(--code-color);
-  background-color: var(--block-background-color);
-}
-
-.CodeMirror-gutters {
-  border-right: 1px solid #a2b6d452;
-}
-
-.CodeMirror-linenumber {
-  color: var(--primary-color);
-}
-
-/* 
- * Code Block - Color Scheme
- */
-
+   --text-color: #d0d1d5e3;
+   /* Text */
+   --primary-color: #8393ad;
+   /* Primary Color */
+   --bg-color: #1e222a;
+   /* Background */
+ 
+   --code-color: #abbad4;
+   /* Inline Code & Code Block */
+   --marker-color: #7d8a9f;
+   /* List Marker */
+   --highlight-color: #ffffb5c2;
+   /* Highlight */
+   --header-span-color: #47556d;
+   /* h2 Span Color */
+   --code-block-bg-color: #080e1d;
+   /* Code Block Background */
+   --quote-block-bg-color: #2a2f3b;
+   /* Quote Block Background */
+ 
+   /* Overwrite of Typora Base Color */
+   --md-char-color: #7d8a9f7d;
+   --select-text-bg-color: #dae3ea2e;
+   --search-select-bg-color: #428bca;
+   --window-border: 1px solid var(--bg-color);
+   --control-text-hover-color: var(--marker-color);
+   --rawblock-edit-panel-bd: var(--code-block-bg-color);
+ }
+ 
+ /*
+  * Background Color
+  */
+ 
+ content {
+   background: var(--bg-color);
+ }
+ 
+ /*
+  * Mark
+  */
+ 
+ mark {
+   background: var(--highlight-color);
+   border-radius: 1px;
+   color: var(--bg-color);
+   padding: 0;
+ 
+ }
+ 
+ /*
+  * Header
+  */
+ 
+ #write h2 span.md-plain {
+   background: var(--header-span-color);
+   color: var(--text-color);
+ }
+ 
+ #write h2 span.md-link {
+   background: var(--header-span-color);
+   color: var(--text-color);
+ }
+ 
+ #write h2.md-heading a {
+   border-bottom: 1px solid var(--text-color);
+ }
+ 
+ /*
+  * Quote
+  */
+ 
+ #write blockquote {
+   background: var(--quote-block-bg-color);
+ }
+ 
+ /*
+  * Code
+  */
+ 
+ #write code {
+   color: var(--code-color);
+ }
+ 
+ /*
+  * Image
+  */
+ 
+ #write span img {
+   filter: drop-shadow(var(--code-block-bg-color) 0px 0px 8px);
+ }
+ 
+ /*
+  * Table
+  */
+ 
+ #write table tr th,
+ #write table tr th,
+ #write table tr td {
+   border: 1px solid var(--header-span-color);
+ }
+ 
+ #write table tr th {
+   background-color: var(--header-span-color);
+   color: var(--text-color);
+ }
+ 
+ table.md-table td {
+   background-color: var(--bg-color);
+ }
+ 
+ /*
+  * Task List
+  */
+ 
+ .task-list-item input:checked::before,
+ .task-list-item input:before {
+   background-color: var(--bg-color);
+ }
+ 
+ /*
+  * Sidebar
+  */
+ 
+ #typora-sidebar {
+   color: var(--text-color);
+   background-color: var(--bg-color);
+ }
+ 
+ /*
+  * Horizontal Line
+  */
+ 
+ #write hr {
+   border-top: 1px solid var(--header-span-color);
+ }
+ 
+ /*
+  * Comment
+  */
+ 
+ .md-comment {
+   color: var(--header-span-color);
+ }
+ 
+ /*
+  * Front Matter
+  */
+ 
+ pre.md-meta-block {
+   background: var(var(--quote-block-bg-color));
+   filter: drop-shadow(var(--code-block-bg-color) 0px 3px 3px);
+ }
+ 
+ /* 
+  * Code Block - Style
+  */
+ 
+ .cm-s-inner.CodeMirror {
+   color: var(--code-color);
+   background-color: var(--code-block-bg-color);
+ }
+ 
+ .CodeMirror-gutters {
+   border-right: 1px solid #a2b6d452;
+ }
+ 
+ .CodeMirror-linenumber {
+   color: var(--primary-color);
+ }
+ 
+ /* 
+  * Code Block - Color Scheme
+  */
+ 
  .cm-s-inner .cm-keyword {
-  color: #66cfe9 !important;
-}
-.cm-s-inner .cm-operator {
-  color: #e7fc4a !important;
-}
-.cm-s-inner .cm-variable,
-.cm-s-inner .cm-builtin,
-.cm-s-inner .cm-header,
-.cm-s-inner .cm-tag,
-.cm-s-inner .cm-property,
-.cm-s-inner .cm-quote {
-  color: #c2eaff !important;
-}
-
-.cm-s-inner .cm-variable-2 {
-  color: #8eb0b0 !important;
-}
-.cm-s-inner .cm-variable-3,
-.cm-s-inner .cm-type,
-.cm-s-inner .cm-atom {
-  color: #debbfb  !important;
-}
-
-.cm-s-inner .cm-number {
-  color: #b0f6ae !important;
-}
-.cm-s-inner .cm-def,
-.cm-s-inner .cm-qualifier {
-  color: #f9fbfd !important;
-}
-.cm-s-inner .cm-string {
-  color: #acd9a4 !important;
-}
-.cm-s-inner .cm-string-2 {
-  color: #89acc5 !important;
-}
-.cm-s-inner .cm-comment {
-  color: rgb(168, 168, 168) !important;
-}
-
-.cm-s-inner .cm-meta {
-  color: #a0b4f6 !important;
-}
-.cm-s-inner .cm-attribute {
-  color: #baacc3 !important;
-}
-
-.cm-s-inner .cm-error {
-  color: rgba(255, 255, 255, 1) !important;
-  background-color: #ffcff140 !important;
-}
-.cm-s-inner .CodeMirror-matchingbracket {
-  text-decoration: underline;
-  color: white !important;
-}
-.CodeMirror div.CodeMirror-cursor {
-  border-left: 1px solid var(--primary-color);
-  z-index: 3;
-}
-
-.cm-s-inner div.CodeMirror-selected {
-  background: rgba(167, 178, 189, 0.2) !important;
-}
-
-.cm-s-inner.CodeMirror-focused div.CodeMirror-selected {
-  background: rgba(167, 178, 189, 0.2) !important;
-}
-
-.cm-s-inner .CodeMirror-selected,
-.cm-s-inner .CodeMirror-selectedtext {
-  background-color: rgba(167, 178, 189, 0.0) !important;
-}
-
-.cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line > span::-moz-selection,
-.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
-  background-color: rgba(167, 178, 189, 0.2);
-}
-
-.cm-s-inner .CodeMirror-line::selection,
-.cm-s-inner .CodeMirror-line > span::selection,
-.cm-s-inner .CodeMirror-line > span > span::selection {
-  background-color: rgba(167, 178, 189, 0.2);
-}
-
-.nav-group-item.active {
-  background: var(--primary-color) !important;
-}
+   color: #66cfe9 !important;
+ }
+ 
+ .cm-s-inner .cm-operator {
+   color: #e7fc4a !important;
+ }
+ 
+ .cm-s-inner .cm-variable,
+ .cm-s-inner .cm-builtin,
+ .cm-s-inner .cm-header,
+ .cm-s-inner .cm-tag,
+ .cm-s-inner .cm-property,
+ .cm-s-inner .cm-quote {
+   color: #c2eaff !important;
+ }
+ 
+ .cm-s-inner .cm-variable-2 {
+   color: #8eb0b0 !important;
+ }
+ 
+ .cm-s-inner .cm-variable-3,
+ .cm-s-inner .cm-type,
+ .cm-s-inner .cm-atom {
+   color: #debbfb !important;
+ }
+ 
+ .cm-s-inner .cm-number {
+   color: #b0f6ae !important;
+ }
+ 
+ .cm-s-inner .cm-def,
+ .cm-s-inner .cm-qualifier {
+   color: #f9fbfd !important;
+ }
+ 
+ .cm-s-inner .cm-string {
+   color: #acd9a4 !important;
+ }
+ 
+ .cm-s-inner .cm-string-2 {
+   color: #89acc5 !important;
+ }
+ 
+ .cm-s-inner .cm-comment {
+   color: rgb(168, 168, 168) !important;
+ }
+ 
+ .cm-s-inner .cm-meta {
+   color: #a0b4f6 !important;
+ }
+ 
+ .cm-s-inner .cm-attribute {
+   color: #baacc3 !important;
+ }
+ 
+ .cm-s-inner .cm-error {
+   color: rgba(255, 255, 255, 1) !important;
+   background-color: #ffcff140 !important;
+ }
+ 
+ .cm-s-inner .CodeMirror-matchingbracket {
+   text-decoration: underline;
+   color: white !important;
+ }
+ 
+ .CodeMirror div.CodeMirror-cursor {
+   border-left: 1px solid var(--primary-color);
+   z-index: 3;
+ }
+ 
+ .cm-s-inner div.CodeMirror-selected {
+   background: rgba(167, 178, 189, 0.2) !important;
+ }
+ 
+ .cm-s-inner.CodeMirror-focused div.CodeMirror-selected {
+   background: rgba(167, 178, 189, 0.2) !important;
+ }
+ 
+ .cm-s-inner .CodeMirror-selected,
+ .cm-s-inner .CodeMirror-selectedtext {
+   background-color: rgba(167, 178, 189, 0.0) !important;
+ }
+ 
+ .cm-s-inner .CodeMirror-line::-moz-selection,
+ .cm-s-inner .CodeMirror-line>span::-moz-selection,
+ .cm-s-inner .CodeMirror-line>span>span::-moz-selection {
+   background-color: rgba(167, 178, 189, 0.2);
+ }
+ 
+ .cm-s-inner .CodeMirror-line::selection,
+ .cm-s-inner .CodeMirror-line>span::selection,
+ .cm-s-inner .CodeMirror-line>span>span::selection {
+   background-color: rgba(167, 178, 189, 0.2);
+ }
+ 
+ /*
+  * Source Code Mode
+  */
+ 
+ cm-s-inner .cm-link,
+ .cm-s-inner.cm-link {
+   color: #42a5f5;
+ }
+ 
+ .cm-s-typora-default .cm-link {
+   color: #42a5f5;
+   text-decoration: underline;
+ }
+ 
+ /* 
+  * Preferences
+  */
+ 
+ .nav-group-item.active {
+   background: var(--primary-color) !important;
+ }
