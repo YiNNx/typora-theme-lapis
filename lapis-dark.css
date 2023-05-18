@@ -21,7 +21,7 @@
   /* Highlight */
   --header-span-color: #47556d;
   /* h2 Span Color */
-  --code-block-bg-color: #080e1d;
+  --block-bg-color: #080e1d;
   /* Code Block Background */
   --quote-block-bg-color: #2a2f3b;
   /* Quote Block Background */
@@ -32,7 +32,7 @@
   --search-select-bg-color: #428bca;
   --window-border: 1px solid var(--bg-color);
   --control-text-hover-color: var(--marker-color);
-  --rawblock-edit-panel-bd: var(--code-block-bg-color);
+  --rawblock-edit-panel-bd: var(--block-bg-color);
 }
 
 /*
@@ -51,8 +51,6 @@ mark {
   background: var(--highlight-color);
   border-radius: 1px;
   color: var(--bg-color);
-  padding: 0;
-
 }
 
 /*
@@ -94,7 +92,7 @@ mark {
  */
 
 #write span img {
-  filter: drop-shadow(var(--code-block-bg-color) 0px 0px 8px);
+  filter: drop-shadow(var(--block-bg-color) 0px 0px 8px);
 }
 
 /*
@@ -155,8 +153,8 @@ table.md-table td {
  */
 
 pre.md-meta-block {
-  background: var(var(--quote-block-bg-color));
-  filter: drop-shadow(var(--code-block-bg-color) 0px 3px 3px);
+  background: var(--quote-block-bg-color);
+  filter: drop-shadow(var(--block-bg-color) 0px 3px 3px);
 }
 
 /* 
@@ -165,7 +163,7 @@ pre.md-meta-block {
 
 .cm-s-inner.CodeMirror {
   color: var(--code-color);
-  background-color: var(--code-block-bg-color);
+  background-color: var(--block-bg-color);
 }
 
 .CodeMirror-gutters {
