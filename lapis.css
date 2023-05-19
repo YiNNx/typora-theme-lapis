@@ -181,7 +181,7 @@ mark {
 }
 
 #write h2 span.md-inline-math {
-  background: var(--primary-color);
+  background: var(--header-span-color);
   padding: 1px 15px 2px;
   border-radius: 4px;
   font-weight: bold;
@@ -197,7 +197,7 @@ mark {
   #write h2 span {
     display: inline-block;
     font-weight: bold;
-    background: var(--primary-color);
+    background: var(--header-span-color);
     color: #ffffff;
     padding: 1px 15px 1px;
     border-radius: 4px;
