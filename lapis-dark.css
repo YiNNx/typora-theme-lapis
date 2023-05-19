@@ -6,7 +6,7 @@
 @import "lapis.css";
 
 :root {
-  --text-color: #d0d1d5e3;
+  --text-color: #e4e4e4e3;
   /* Text */
   --primary-color: #8393ad;
   /* Primary Color */
@@ -28,6 +28,7 @@
 
   /* Overwrite of Typora Base Color */
   --md-char-color: #7d8a9f7d;
+  --heading-char-color: var(--text-color);
   --select-text-bg-color: #dae3ea2e;
   --search-select-bg-color: #428bca;
   --window-border: 1px solid var(--bg-color);
