@@ -497,6 +497,15 @@ hr {
   margin-top: .5rem;
 }
 
+.html-for-mac #write input[type=checkbox] {
+  margin-top: 0.65rem;
+  }
+
+.html-for-mac #write .task-list-item input::before {
+  margin-top: -.85rem;
+}
+
+
 /*
  * Sidebar - FileNode
  */
