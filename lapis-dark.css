@@ -11,6 +11,7 @@
   --primary-color: #8393ad;
   /* Primary Color */
   --bg-color: #1e222a;
+  --bg-sidebar-color: #191d25;
   /* Background */
 
   --code-color: #abbad4;
@@ -130,7 +131,11 @@ table.md-table td {
 
 #typora-sidebar {
   color: var(--text-color);
-  background-color: var(--bg-color);
+  background-color: var(--bg-sidebar-color);
+}
+
+.typora-sidebar-resizer-bar {
+  border-left: 2px solid var(--block-bg-color);
 }
 
 /*
