@@ -99,17 +99,45 @@
   color: #a2b6d4;
 }
 
+
 /* 
  * TOC
  */
 
-.md-toc-content {
+ .md-toc-content {
   font-family: 'SourceHanSerifCN';
 }
 
 .md-toc-content:empty:before {
   color: var(--primary-color);
 }
+
+#write div.md-toc-tooltip {
+  font-family: 'SourceHanSerifCN';
+  color: var(--primary-color);
+  position: static;
+  margin-top: 10px;
+  background-color: var(--block-bg-color);
+  line-height: 1.6rem;
+  padding: 0.3rem 0.75rem;
+  border-top: none;
+  /* border-left: 2px solid var(--primary-color);
+   */
+  border-radius: .5rem;
+}
+
+.md-toc:focus .md-toc-content {
+  border-color: var(--bg-color);
+  margin: 9px -1px;
+  margin-top: 9px;
+}
+
+.md-toc .md-toc-content {
+  border-color: var(--bg-color);
+  margin: 10px 0px;
+  margin-top: 10px;
+}
+
 
 /* mark */
 
