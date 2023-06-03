@@ -377,7 +377,7 @@ li.md-list-item {
 /*
  * Table
  */
-#write table {
+#write table.md-table {
   display: table;
   text-align: justify;
   overflow-x: auto;
@@ -392,21 +392,21 @@ li.md-list-item {
   border: 0;
 }
 
-#write table tr {
+#write table.md-table tr {
   border: 0;
   border-top: 1px solid #ccc;
 }
 
-#write table tr th,
-#write table tr th,
-#write table tr td {
+#write table.md-table tr th,
+#write table.md-table tr th,
+#write table.md-table tr td {
   font-size: 1rem;
   border: 1px solid #d9dfe4;
   padding: 5px 10px;
   text-align: justify;
 }
 
-#write table tr th {
+#write table.md-table tr th {
   text-align: center;
   min-width: 10rem;
   font-weight: bold;
