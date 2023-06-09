@@ -3,7 +3,7 @@
  *     https://github.com/YiNNx/typora-theme-lapis
  */
 
-:root {
+ :root {
     --text-color: rgb(58 64 73 / 97%);
     /* Text */
     --primary-color: #4870ac;
@@ -22,6 +22,7 @@
 
     /* Overwrite of Typora Base Color */
     --control-text-hover-color: #a2b6d4;
+    --rawblock-edit-panel-bd: var(--block-bg-color);
 }
 
 /*
@@ -441,11 +442,25 @@ sup.md-footnote {
     color: var(--primary-color);
 }
 
+.md-rawblock-control:not(.md-rawblock-tooltip) {
+    background: var(--bg-color);
+    color: var(--md-char-color);
+}
+
+
+.code-tooltip {
+    box-shadow: none;
+}
+
+.md-rawblock-tooltip.md-rawblock-control {
+    border-radius: 1rem;
+}
+
 /* 
  * Comment
  */
 .md-comment {
-    color: #b4bad4;
+    color: #a8a8a9;
     opacity: 1;
     font-family: 'JetBrainsMono';
 }
@@ -626,8 +641,11 @@ pre.md-meta-block {
     overflow-x: auto;
 }
 
-.cm-s-inner.CodeMirror {
+.md-fences .cm-s-inner.CodeMirror {
     margin: 2rem 0;
+}
+
+.cm-s-inner.CodeMirror {
     padding: 1.2rem .8rem;
     color: #4f5467;
     font-family: 'JetBrainsMono';
