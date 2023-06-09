@@ -95,7 +95,7 @@
   */
  
  #write span img {
-     filter: drop-shadow(var(--block-bg-color) 0px 0px 8px);
+     filter: drop-shadow(var(--block-bg-color) 0px 0px 8px) brightness(90%);
  }
  
  /*
