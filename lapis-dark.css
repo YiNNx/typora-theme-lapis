@@ -11,7 +11,7 @@
   --primary-color: #8393ad;
   /* Primary Color */
   --bg-color: #1e222a;
-  --bg-sidebar-color: #191d25;
+  --bg-sidebar-color: #181c24;
   /* Background */
 
   --code-color: #abbad4;
@@ -32,8 +32,9 @@
   --heading-char-color: var(--text-color);
   --select-text-bg-color: #dae3ea2e;
   --search-select-bg-color: #428bca;
+  --item-hover-bg-color: var(--block-bg-color);
   --window-border: 1px solid var(--bg-color);
-  --control-text-hover-color: var(--marker-color);
+  --control-text-hover-color: var(--text-color);
   --rawblock-edit-panel-bd: var(--block-bg-color);
 }
 
@@ -108,13 +109,17 @@ mark {
 }
 
 #write table tr th {
-  background-color: var(--header-span-color);
   color: var(--text-color);
 }
 
 table.md-table td {
   background-color: var(--bg-color);
 }
+
+#write table tr td:hover, #write table tr th:hover {
+  background-color: var(--bg-sidebar-color);
+}
+
 
 /*
  * Task List
@@ -134,9 +139,9 @@ table.md-table td {
   background-color: var(--bg-sidebar-color);
 }
 
-.typora-sidebar-resizer-bar {
+/* .typora-sidebar-resizer-bar {
   border-left: 2px solid var(--block-bg-color);
-}
+} */
 
 /*
  * Horizontal Line
@@ -298,6 +303,26 @@ cm-s-inner .cm-link,
  * Preferences
  */
 
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: #41444b;
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: #41444b;
+  padding-left: 10px;
+  margin-left: -2px;
+}
+
 .nav-group-item.active {
   background: var(--primary-color) !important;
+  color: var(--bg-color);
+}
+
+.md-def-name:before {
+  color: var(--md-char-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--block-bg-color
+  );
 }
