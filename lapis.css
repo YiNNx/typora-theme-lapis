@@ -596,6 +596,10 @@ pre.md-meta-block {
     /* border-bottom: 1px solid var(--primary-color); */
 }
 
+pre.md-fences-advanced.md-focus .md-fences-adv-panel {
+    border-radius: .8rem;
+}
+
 /*
  * Scrollbar
  */
@@ -642,7 +646,7 @@ pre.md-meta-block {
 }
 
 .md-fences .cm-s-inner.CodeMirror {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 .cm-s-inner.CodeMirror {
