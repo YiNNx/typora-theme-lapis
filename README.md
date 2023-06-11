@@ -1,3 +1,4 @@
+<p align="right">English / <a href="https://github.com/YiNNx/typora-theme-lapis/blob/master/README-CN.md">简体中文</a></p>
 <h1 align="center">Typora Theme - Lapis</h1>
 <p align="center">🖊️ A Typora Theme in Blue Tones</p>
 <div align="center">
@@ -6,7 +7,6 @@
 <img src="imgs/1.png" width="40%" />
 </div>
 </div>
-<p align="center">English / <a href="https://github.com/YiNNx/typora-theme-lapis/blob/master/README-CN.md">简体中文</a></p>
 
 ## Preview
 
@@ -26,22 +26,22 @@
 
 ![image](imgs/5.png)
 
-Also provides YAML Front Matter, Math Script, TOC, etc.
+Also includes styles like YAML Front Matter, Math Script, TOC, etc.
 
 ![image](imgs/6.png)
 
 ## Features
 
 - Supports English & 简体中文 with fonts [Cantarell](https://fonts.google.com/specimen/Cantarell) and [思源宋体](https://source.typekit.com/source-han-serif/cn/).
-- Provides code color schemes inspired by VSCode's [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics), with the font [Jetbrains Mono](https://www.jetbrains.com/lp/mono/).
+- Provides color schemes of code block inspired by VSCode's [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics), using the font [Jetbrains Mono](https://www.jetbrains.com/lp/mono/).
 - Both light and dark themes are available, with clean and rich Markdown styles.
 
 ## Installation
 
-1. Clone this repository or download from [Latest Release](https://github.com/YiNNx/typora-theme-lapis/releases/latest).
+1. Clone this repository or download `typora-theme-lapis.zip` from [Latest Release](https://github.com/YiNNx/typora-theme-lapis/releases/latest).
 2. In Typora, open "Preferences" (`File` > `Preferences`). And then switch to the "Appearance" tab and click the "Open Theme Folder" button.
 3. Copy the `lapis.css` & `lapis-dark.css` files and the `lapis` folder into Typora's theme folder.
-4. Restart Typora and select the `Lapis`/`Lapis Dark` theme from the theme menu.
+4. Restart Typora and select the **Lapis** / **Lapis Dark** theme from the theme menu.
 
 ## Contributing
 
@@ -61,4 +61,4 @@ The Lapis Typora theme is released under the MIT License. You are free to use, m
 
 ---
 
-If you like this theme, please give me a STAR 📘
+If you like this theme, please give me a STAR. :raised_hands:
