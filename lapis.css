@@ -457,6 +457,11 @@ sup.md-footnote {
     border-radius: 1rem;
 }
 
+.md-rawblock .md-rawblock-tooltip {
+    inset: auto 0.3rem auto auto;
+    transform: translateY(-120%);
+}
+
 /* 
  * Comment
  */
