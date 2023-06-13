@@ -3,7 +3,7 @@
  *     https://github.com/YiNNx/typora-theme-lapis
  */
 
- :root {
+:root {
     --text-color: rgb(58 64 73 / 97%);
     /* Text */
     --primary-color: #4870ac;
@@ -367,7 +367,8 @@ li.md-list-item {
     max-width: 100%;
 }
 
-#write span img {
+#write p>.md-image:only-child:not(.md-img-error) img,
+#write p>img:only-child {
     filter: drop-shadow(#d2dff4 0px 0px 8px);
     border-radius: 3rem;
     display: block;
@@ -512,7 +513,7 @@ hr {
  * Sidebar
  */
 #typora-sidebar {
-    font-family: 'Cantarell', 'Source Han Serif CN';
+    font-family: 'Cantarell', 'SourceHanSerifCN';
     height: 100%;
     color: #686d75;
     font-size: 0.92rem;
