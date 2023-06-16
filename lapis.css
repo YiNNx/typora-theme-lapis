@@ -780,3 +780,29 @@ pre.CodeMirror-line {
 .cm-s-inner .CodeMirror-line>span>span::selection {
     background-color: rgba(167, 178, 189, 0.2);
 }
+
+/*
+ * Sitting - Unibody
+ */
+
+.megamenu-menu-header {
+    border: none;
+    color: var(--text-color);
+}
+
+.megamenu-menu-header #megamenu-back-btn,
+.megamenu-menu-header .megamenu-menu-header-title-back,
+.megamenu-menu-header .megamenu-menu-header-title-menu {
+    color: var(--text-color);
+}
+
+.megamenu-menu {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: none !important;
+}
+
+header,#megamenu-content {
+    background-color: var(--bg-color);
+    background-image: none !important;
+}
