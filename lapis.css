@@ -232,6 +232,10 @@ mark {
         border-radius: 4px;
         margin-right: 3px;
     }
+
+    :root{
+        --text-color: rgb(0, 0, 0);
+    }
 }
 
 #write h1 {
