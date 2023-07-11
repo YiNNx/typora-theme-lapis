@@ -4,7 +4,7 @@
  */
 
 :root {
-    --text-color: rgb(58 64 73 / 97%);
+    --text-color: #40464f;
     /* Text */
     --primary-color: #4870ac;
     /* Primary Color */
@@ -23,6 +23,7 @@
     /* Overwrite of Typora Base Color */
     --control-text-hover-color: #a2b6d4;
     --rawblock-edit-panel-bd: var(--block-bg-color);
+    --item-hover-bg-color: rgb(246 248 250);
 }
 
 /*
@@ -237,7 +238,7 @@ mark {
         margin-right: 3px;
     }
 
-    :root{
+    :root {
         --text-color: rgb(0, 0, 0);
     }
 }
@@ -789,6 +790,11 @@ pre.CodeMirror-line {
     background-color: rgba(167, 178, 189, 0.2);
 }
 
+.md-rawblock .md-rawblock-tooltip {
+    inset: auto 0.3rem auto auto;
+    transform: translateY(-120%);
+}
+
 /*
  * Sitting - Unibody
  */
@@ -810,7 +816,8 @@ pre.CodeMirror-line {
     box-shadow: none !important;
 }
 
-header,#megamenu-content {
+header,
+#megamenu-content {
     background-color: var(--bg-color);
     background-image: none !important;
 }

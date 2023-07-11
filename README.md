@@ -1,15 +1,23 @@
-<p align="right">English / <a href="https://github.com/YiNNx/typora-theme-lapis/blob/master/README-CN.md">简体中文</a></p>
-
-<h1 align="center">Typora Theme - Lapis</h1>
-<p align="center">🖊️ A Typora Theme in Blue Tones</p>
-<div align="center">
-  
+<p align="right">
+	English / 
+	<a href="https://github.com/YiNNx/typora-theme-lapis/blob/master/README-CN.md">
+    简体中文
+	</a>
+</p>
+<h1 align="center">
+    Typora Theme - Lapis
+</h1>
 <p align="center">
-  <img alt="GitHub Releases Downloads" src="https://img.shields.io/github/downloads/YiNNx/typora-theme-lapis/total?style=for-the-badge&color=32b0d3">  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/YiNNx/typora-theme-lapis?style=for-the-badge&color=ca5eb4"></p>
-<div>
-<img src="imgs/2.png" width="40%" />
-<img src="imgs/1.png" width="40%" />
-</div>
+    🖊️ A clean and fresh Typora theme in blue tones
+</p>
+<div align="center">
+      <img alt="Releases Downloads" src="https://img.shields.io/github/downloads/YiNNx/typora-theme-lapis/total?style=for-the-badge&color=32b0d3">  
+      <img alt="Release Version" src="https://img.shields.io/github/v/release/YiNNx/typora-theme-lapis?style=for-the-badge&color=ca5eb4"></div>
+<div align="center">
+	<div>
+		<img src="imgs/2.png" width="40%" />
+		<img src="imgs/1.png" width="40%" />
+	</div>
 </div>
 
 
