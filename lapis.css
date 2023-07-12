@@ -529,7 +529,7 @@ hr {
 #typora-sidebar {
     font-family: 'Cantarell', 'SourceHanSerifCN';
     height: 100%;
-    color: #686d75;
+    color: var(--text-color);
     font-size: 0.92rem;
     background-color: var(--bg-color);
 }
@@ -593,8 +593,14 @@ span.file-node-title-ext-part {
     font-size: .96rem;
 }
 
+#outline-content .outline-active,
+.pin-outline .outline-active {
+    color: var(--primary-color);
+}
+
 .outline-item {
     padding-left: 2em;
+    padding-top: 0;
 }
 
 /* Meta Block */
