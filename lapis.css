@@ -36,6 +36,11 @@
 }
 
 @font-face {
+    font-family: "Cantarell";
+    src: url('lapis/Cantarell-VF-new.otf');
+}
+
+@font-face {
     font-family: "JetBrainsMono";
     src: url('lapis/JetBrainsMono-Regular.ttf');
 }
@@ -66,8 +71,16 @@
     word-wrap: break-word;
     text-align: justify;
 
-    font-family: 'SegoeUI', 'SourceHanSerifCN', 'JetBrainsMono';
+    font-family: 'Cantarell', 'SegoeUI', 'SourceHanSerifCN', 'JetBrainsMono';
     margin-bottom: 20rem;
+}
+
+.html-for-mac #write {
+    font-family: 'SegoeUI', 'SourceHanSerifCN', 'JetBrainsMono';
+}
+
+.html-for-mac #typora-sidebar {
+    font-family: 'SegoeUI', 'SourceHanSerifCN';
 }
 
 /* Strong */
@@ -527,7 +540,7 @@ hr {
  * Sidebar
  */
 #typora-sidebar {
-    font-family: 'SegoeUI', 'SourceHanSerifCN';
+    font-family: 'Cantarell', 'SourceHanSerifCN';
     height: 100%;
     color: var(--text-color);
     font-size: 0.92rem;
