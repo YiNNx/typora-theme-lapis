@@ -27,12 +27,12 @@
 }
 
 /*
- * Font-face for Cantarell, Source Han Serif CN and JetBrains Mono
+ * Font-face for SegoeUI, Source Han Serif CN and JetBrains Mono
  */
 
 @font-face {
-    font-family: "Cantarell";
-    src: url('lapis/Cantarell-VF-new.otf');
+    font-family: "SegoeUI";
+    src: url('lapis/SegoeUI-VF.ttf');
 }
 
 @font-face {
@@ -66,7 +66,7 @@
     word-wrap: break-word;
     text-align: justify;
 
-    font-family: 'Cantarell', 'SourceHanSerifCN', 'JetBrainsMono';
+    font-family: 'SegoeUI', 'SourceHanSerifCN', 'JetBrainsMono';
     margin-bottom: 20rem;
 }
 
@@ -527,7 +527,7 @@ hr {
  * Sidebar
  */
 #typora-sidebar {
-    font-family: 'Cantarell', 'SourceHanSerifCN';
+    font-family: 'SegoeUI', 'SourceHanSerifCN';
     height: 100%;
     color: var(--text-color);
     font-size: 0.92rem;

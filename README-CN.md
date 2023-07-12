@@ -41,7 +41,7 @@
 
 ## Features
 
-- 支持英文和简体中文，正文字体中文使用[思源宋体](https://source.typekit.com/source-han-serif/cn/)，英文使用[Cantarell](https://fonts.google.com/specimen/Cantarell); 
+- 支持英文和简体中文，正文字体中文使用思源宋体，英文使用SegoeUI; 
 
   代码字体使用 [Jetbrains Mono](https://www.jetbrains.com/lp/mono/)，代码块配色灵感来自 VSCode Theme - [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics)。
 
