@@ -57,24 +57,6 @@
  }
  
  /*
-  * Header
-  */
- 
- #write h2 span.md-plain {
-     background: var(--header-span-color);
-     color: var(--text-color);
- }
- 
- #write h2 span.md-link {
-     background: var(--header-span-color);
-     color: var(--text-color);
- }
- 
- #write h2.md-heading a {
-     border-bottom: 1px solid var(--text-color);
- }
- 
- /*
   * Quote
   */
  
