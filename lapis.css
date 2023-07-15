@@ -185,7 +185,7 @@ mark {
 
 #write h2 {
     background-color: var(--header-span-color);
-    color: #ffffff!important;
+    color: #ffffff;
     padding: 1px 10px;
     border-radius: 4px;
     display: inline;
