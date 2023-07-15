@@ -183,61 +183,15 @@ mark {
     text-align: center;
 }
 
-#write h2 span.md-plain {
-    background: var(--header-span-color);
-    padding: 1px 15px 2px;
+#write h2 {
+    background-color: var(--header-span-color);
+    color: #ffffff!important;
+    padding: 1px 10px;
     border-radius: 4px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
-#write h2 span.md-link {
-    background: var(--header-span-color);
-    padding: 1px 11px 2px;
-    border-radius: 4px;
-    margin-left: -6px;
-    margin-right: -6px;
-}
-
-#write h2 span.md-link .md-plain {
-    background: #ffffff00;
-    padding: 1px 0px 3px;
-}
-
-#write h2 span.md-content {
-    color: #ffffff;
-}
-
-#write h2.md-heading a {
-    border-bottom: 1px solid white;
-}
-
-#write h2 span.md-inline-math {
-    background: var(--header-span-color);
-    padding: 1px 15px 1px;
-    border-radius: 4px;
-    font-weight: bold;
-    color: #ffffff;
-    line-height: 1.44;
-    margin-left: -6px;
-    margin-right: -6px;
-}
-
-#write h2 span.md-inline-math script {
-    color: #ffffff;
+    display: inline;
 }
 
 @media print {
-    #write h2 span {
-        display: inline-block;
-        font-weight: bold;
-        background: var(--primary-color);
-        color: #ffffff;
-        padding: 1px 15px 1px;
-        border-radius: 4px;
-        margin-right: 3px;
-    }
-
     :root {
         --text-color: rgb(0, 0, 0);
     }
