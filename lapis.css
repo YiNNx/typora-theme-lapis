@@ -191,6 +191,11 @@ mark {
     display: inline;
 }
 
+#write h2 a {
+    color: #ffffff;
+    border-bottom-color: #ffffff !important;
+}
+
 @media print {
     :root {
         --text-color: rgb(0, 0, 0);
