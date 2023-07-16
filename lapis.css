@@ -90,6 +90,13 @@
     margin: 2px;
 }
 
+#write h2.md-heading a {
+    text-decoration: underline;
+    border-bottom: 0;
+    text-decoration-thickness: 1.2px;
+    text-underline-offset: 2px;
+}
+
 [md-inline=url],
 [md-inline=link]>.md-content,
 [md-inline=image]>.md-meta {
@@ -186,7 +193,7 @@ mark {
 #write h2 {
     background-color: var(--header-span-color);
     color: #ffffff;
-    padding: 1px 10px;
+    padding: 1px 12.5px;
     border-radius: 4px;
     display: inline;
 }
