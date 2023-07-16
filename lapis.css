@@ -195,7 +195,7 @@ mark {
     color: #ffffff;
     padding: 1px 12.5px;
     border-radius: 4px;
-    display: inline;
+    display: inline-block;
 }
 
 #write h2 a {
@@ -239,7 +239,7 @@ mark {
 }
 
 #write h2 {
-    margin: 1.2em 0 1.2em;
+    margin: 0em 0 0em;
 }
 
 #write h3 {
