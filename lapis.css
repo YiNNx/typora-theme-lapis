@@ -203,6 +203,10 @@ mark {
     border-bottom-color: #ffffff !important;
 }
 
+#write h2 strong {
+    color: #ffffff;
+}
+
 @media print {
     :root {
         --text-color: rgb(0, 0, 0);
@@ -239,7 +243,7 @@ mark {
 }
 
 #write h2 {
-    margin: 0em 0 0em;
+    margin: .3em 0;
 }
 
 #write h3 {
