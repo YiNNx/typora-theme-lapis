@@ -24,6 +24,7 @@
     --control-text-hover-color: #a2b6d4;
     --rawblock-edit-panel-bd: var(--block-bg-color);
     --item-hover-bg-color: rgb(246 248 250);
+    --active-file-bg-color: var(--block-bg-color);
 }
 
 /*
@@ -577,7 +578,6 @@ span.file-node-title-ext-part {
 }
 
 .file-tree-node.active>.file-node-background {
-    background-color: var(--block-bg-color);
     border-left: 4px solid var(--primary-color);
     border-color: var(--primary-color);
 }
