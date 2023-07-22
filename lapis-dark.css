@@ -45,6 +45,13 @@
  content {
      background: var(--bg-color);
  }
+
+/*
+  * Header
+  */
+  #write h2 {
+    color: var(--text-color);
+}
  
  /*
   * Mark
@@ -73,7 +80,8 @@
  }
  
  #write h2 code {
-    background-color: #303D51;
+    background-color: var(--header-span-color);
+    color: var(--text-color);
  }
  /*
   * Image
