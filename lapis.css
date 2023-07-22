@@ -207,6 +207,11 @@ mark {
     color: #ffffff;
 }
 
+#write h2 code {
+    color: #ffffff;
+    background-color: #2F5B9B;
+}
+
 @media print {
     :root {
         --text-color: rgb(0, 0, 0);

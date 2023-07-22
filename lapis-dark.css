@@ -72,6 +72,9 @@
      color: var(--code-color);
  }
  
+ #write h2 code {
+    background-color: #303D51;
+ }
  /*
   * Image
   */
