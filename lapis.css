@@ -488,7 +488,6 @@ hr {
     margin-top: -.6rem;
 }
 
-
 .task-list-item input:checked::before {
     content: '✓';
     font-weight: bold;
@@ -497,6 +496,10 @@ hr {
     background-color: var(--bg-color);
     font-size: 0.75rem;
     line-height: 0.8rem;
+}
+
+blockquote .task-list-item input::before {
+    margin-top: .2rem;
 }
 
 /*
