@@ -805,3 +805,8 @@ header,
     background-color: var(--bg-color);
     background-image: none !important;
 }
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: var(--recent-file-panel-n-bg-color);
+    color: var(--recent-file-panel-n-color);
+}
