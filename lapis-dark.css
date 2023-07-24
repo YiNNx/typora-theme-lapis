@@ -31,7 +31,7 @@
     --md-char-color: #7d8a9f7d;
     --heading-char-color: var(--text-color);
     --select-text-bg-color: #dae3ea2e;
-    --search-select-bg-color: #428bca;
+    --search-select-bg-color: #346895;
     --item-hover-bg-color: var(--block-bg-color);
     --window-border: 1px solid var(--bg-color);
     --control-text-hover-color: var(--text-color);
@@ -308,7 +308,7 @@ cm-s-inner .cm-link,
 }
 
 .nav-group-item.active {
-    background: var(--primary-color) !important;
+    background: var(--block-bg-color) !important;
     color: var(--bg-color);
 }
 

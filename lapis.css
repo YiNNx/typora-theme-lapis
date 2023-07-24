@@ -21,6 +21,8 @@
     /* Block Background */
 
     /* Overwrite of Typora Base Color */
+    --search-hit-bg-color: var(--select-text-bg-color);
+    --search-select-bg-color: #5bb3ff;
     --control-text-hover-color: #a2b6d4;
     --rawblock-edit-panel-bd: var(--block-bg-color);
     --item-hover-bg-color: rgb(246 248 250);
@@ -804,4 +806,8 @@ header,
 #megamenu-content {
     background-color: var(--bg-color);
     background-image: none !important;
+}
+
+.md-search-hit{
+    background-color: var(--search-hit-bg-color);
 }
