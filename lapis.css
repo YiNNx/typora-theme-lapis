@@ -9,6 +9,7 @@
     --primary-color: #4870ac;
     /* Primary Color */
     --bg-color: #ffffff;
+    --side-bar-bg-color: var(--bg-color);
     /* Background */
 
     --marker-color: #a2b6d4;
@@ -810,4 +811,9 @@ header,
 
 .md-search-hit{
     background-color: var(--search-hit-bg-color);
+}
+
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: var(--recent-file-panel-n-bg-color);
+    color: var(--recent-file-panel-n-color);
 }
