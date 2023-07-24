@@ -9,6 +9,7 @@
     --primary-color: #4870ac;
     /* Primary Color */
     --bg-color: #ffffff;
+    --side-bar-bg-color: var(--bg-color);
     /* Background */
 
     --marker-color: #a2b6d4;

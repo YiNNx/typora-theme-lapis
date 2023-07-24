@@ -11,7 +11,7 @@
     --primary-color: #8393ad;
     /* Primary Color */
     --bg-color: #1e222a;
-    --bg-sidebar-color: #181c24;
+    --side-bar-bg-color: #181c24;
     /* Background */
 
     --code-color: #abbad4;
@@ -111,7 +111,7 @@ table.md-table.md-table td {
 
 #write table.md-table tr td:hover,
 #write table.md-table tr th:hover {
-    background-color: var(--bg-sidebar-color);
+    background-color: var(--side-bar-bg-color);
 }
 
 
@@ -130,7 +130,7 @@ table.md-table.md-table td {
 
 #typora-sidebar {
     color: var(--text-color);
-    background-color: var(--bg-sidebar-color);
+    background-color: var(--side-bar-bg-color);
 }
 
 /* .typora-sidebar-resizer-bar {
