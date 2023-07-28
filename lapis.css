@@ -271,6 +271,13 @@ mark {
     margin: 0.4em 0 0.4em;
 }
 
+blockquote h3.md-focus:before,
+blockquote h4.md-focus:before,
+blockquote h5.md-focus:before,
+blockquote h6.md-focus:before {
+    left: -1.3rem; 
+}
+
 /*
  * List
  */
