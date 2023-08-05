@@ -30,6 +30,16 @@
     --active-file-bg-color: var(--block-bg-color);
 }
 
+@media print {
+    :root {
+        --text-color: rgb(0, 0, 0);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent !important;
+    }
+}
+
 /*
  * Font-face for Cantarell, Source Han Serif CN and JetBrains Mono
  */
@@ -214,12 +224,6 @@ mark {
 #write h2 code {
     color: var(--bg-color);
     background-color: var(--header-span-color);
-}
-
-@media print {
-    :root {
-        --text-color: rgb(0, 0, 0);
-    }
 }
 
 #write h1 {
