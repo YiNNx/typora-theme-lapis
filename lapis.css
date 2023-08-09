@@ -385,7 +385,7 @@ li.md-list-item {
 /*
  * Table
  */
-#write table.md-table {
+#write table {
     display: table;
     text-align: justify;
     overflow-x: auto;
@@ -400,20 +400,20 @@ li.md-list-item {
     border: 0;
 }
 
-#write table.md-table tr {
+#write table tr {
     border: 0;
     border-top: 1px solid #ccc;
 }
 
-#write table.md-table tr th,
-#write table.md-table tr td {
+#write table tr th,
+#write table tr td {
     font-size: 1rem;
     border: 1px solid #d9dfe4;
     padding: 5px 10px;
     text-align: justify;
 }
 
-#write table.md-table tr th {
+#write table tr th {
     font-family: SourceHanSerifCN;
     text-align: center;
     min-width: 10rem;
@@ -426,7 +426,7 @@ li.md-list-item {
     background-color: var(--block-bg-color);
 }
 
-table.md-table td {
+table td {
     min-width: 32px;
 }
 
