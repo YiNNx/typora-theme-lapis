@@ -20,6 +20,7 @@
     /* h2 Span Color */
     --block-bg-color: #f6f8fa;
     /* Block Background */
+    --img-shadow-color: #d2dff4;
 
     /* Overwrite of Typora Base Color */
     --search-hit-bg-color: var(--select-text-bg-color);
@@ -189,6 +190,12 @@ mark {
  * Header
  */
 
+#write h4,
+#write h5,
+#write h6 {
+    font-weight: normal;
+}
+
 #write h1,
 #write h2,
 #write h3,
@@ -279,7 +286,7 @@ blockquote h3.md-focus:before,
 blockquote h4.md-focus:before,
 blockquote h5.md-focus:before,
 blockquote h6.md-focus:before {
-    left: -1.3rem; 
+    left: -1.3rem;
 }
 
 /*
@@ -368,7 +375,7 @@ li.md-list-item {
 
 #write p>.md-image:only-child:not(.md-img-error) img,
 #write p>img:only-child {
-    filter: drop-shadow(#d2dff4 0px 0px 8px);
+    filter: drop-shadow(var(--img-shadow-color) 0px 0px 8px);
     border-radius: 3rem;
     display: block;
     margin: 0 auto;
@@ -604,7 +611,7 @@ pre.md-meta-block {
     padding: 1.5rem;
     margin: -37px 0rem 3.8rem;
     /* border-radius: 1rem; */
-    filter: drop-shadow(#d2dff4 0px 3px 3px);
+    filter: drop-shadow(var(--img-shadow-color) 0px 3px 3px);
     /* border-top: 1px solid var(--primary-color); */
     /* border-bottom: 1px solid var(--primary-color); */
 }
@@ -820,7 +827,7 @@ header,
     background-image: none !important;
 }
 
-.md-search-hit{
+.md-search-hit {
     background-color: var(--search-hit-bg-color);
 }
 
