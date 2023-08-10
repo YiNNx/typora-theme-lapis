@@ -599,7 +599,10 @@ span.file-node-title-ext-part {
 
 .outline-item {
     padding-left: 2em;
-    padding-top: 0;
+}
+
+.outline-item>.outline-expander:before {
+    transform: translateY(-1px) !important;
 }
 
 /* Meta Block */
