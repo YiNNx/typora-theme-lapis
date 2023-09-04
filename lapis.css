@@ -430,6 +430,10 @@ table td {
     min-width: 32px;
 }
 
+.md-table-resize-popover {
+    width: auto !important;
+}
+
 /* Footnote */
 
 sup.md-footnote {
