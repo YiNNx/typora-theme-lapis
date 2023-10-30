@@ -11,8 +11,8 @@
     --primary-color: #8393ad;
     /* Primary Color */
     --bg-color: #1e222a;
-    --bg-sidebar-color: #181c24;
-    --bg-panel-color: #40464f;
+    --side-bar-bg-color: #181c24;
+    --panel-bg-color: #40464f;
     /* Background */
 
     --code-color: #abbad4;
@@ -27,12 +27,13 @@
     /* Code Block Background */
     --quote-block-bg-color: #2a2f3b;
     /* Quote Block Background */
+    --img-shadow-color: var(--block-bg-color);
 
     /* Overwrite of Typora Base Color */
     --md-char-color: #7d8a9f7d;
     --heading-char-color: var(--text-color);
     --select-text-bg-color: #dae3ea2e;
-    --search-select-bg-color: #428bca;
+    --search-select-bg-color: #346895;
     --item-hover-bg-color: var(--block-bg-color);
     --window-border: 1px solid var(--bg-color);
     --control-text-hover-color: var(--text-color);
@@ -86,14 +87,6 @@ mark {
 }
 
 /*
- * Image
- */
-
-#write span img {
-    filter: drop-shadow(var(--block-bg-color) 0px 0px 8px) brightness(90%);
-}
-
-/*
  * Table
  */
 
@@ -112,7 +105,7 @@ table.md-table.md-table td {
 
 #write table.md-table tr td:hover,
 #write table.md-table tr th:hover {
-    background-color: var(--bg-sidebar-color);
+    background-color: var(--side-bar-bg-color);
 }
 
 /*
@@ -129,7 +122,7 @@ table.md-table.md-table td {
     color: rgba(146, 146, 146, 0.56);
 }
 #recent-file-panel tbody tr:nth-child(2n-1) {
-    background-color: var(--bg-panel-color);
+    background-color: var(--panel-bg-color);
 }
 .megamenu-menu-panel .btn {
     border: 1px solid #9292928f;
@@ -150,7 +143,7 @@ table.md-table.md-table td {
 
 #typora-sidebar {
     color: var(--text-color);
-    background-color: var(--bg-sidebar-color);
+    background-color: var(--side-bar-bg-color);
 }
 
 /* .typora-sidebar-resizer-bar {
@@ -179,7 +172,6 @@ table.md-table.md-table td {
 
 pre.md-meta-block {
     background: var(--quote-block-bg-color);
-    filter: drop-shadow(var(--block-bg-color) 0px 3px 3px);
 }
 
 /* 
