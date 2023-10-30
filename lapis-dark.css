@@ -320,7 +320,7 @@ cm-s-inner .cm-link,
 }
 
 .nav-group-item.active {
-    background: var(--primary-color) !important;
+    background: var(--block-bg-color) !important;
     color: var(--bg-color);
 }
 
