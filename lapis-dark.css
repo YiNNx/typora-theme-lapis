@@ -12,6 +12,7 @@
     /* Primary Color */
     --bg-color: #1e222a;
     --side-bar-bg-color: #181c24;
+    --panel-bg-color: #40464f;
     /* Background */
 
     --code-color: #abbad4;
@@ -107,6 +108,25 @@ table.md-table.md-table td {
     background-color: var(--side-bar-bg-color);
 }
 
+/*
+ * megamenu
+ */
+
+#recent-file-panel {
+    color: var(--text-color);
+}
+#recent-file-panel-action-btn {
+    background-color: var(--bg-color);
+}
+#recent-file-panel-action-btn-container {
+    color: rgba(146, 146, 146, 0.56);
+}
+#recent-file-panel tbody tr:nth-child(2n-1) {
+    background-color: var(--panel-bg-color);
+}
+.megamenu-menu-panel .btn {
+    border: 1px solid #9292928f;
+}
 
 /*
  * Task List
