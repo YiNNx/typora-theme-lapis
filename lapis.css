@@ -384,7 +384,7 @@ li.md-list-item {
 /*
  * Img
  */
-#write img {
+/* #write img {
     margin: 0 auto;
     max-width: 100%;
 }
@@ -396,7 +396,7 @@ li.md-list-item {
     display: block;
     margin: 0 auto;
     padding: 2rem;
-}
+} */
 
 /*
  * Table
