@@ -115,9 +115,8 @@
 
 #write .md-p a,
 #write .md-heading a {
-    text-decoration: none;
     word-wrap: break-word;
-    border-bottom: 1px solid var(--primary-color);
+    text-decoration: underline solid;
     margin: 2px;
 }
 
