@@ -391,7 +391,7 @@ li.md-list-item {
 
 #write p>.md-image:only-child:not(.md-img-error) img,
 #write p>img:only-child {
-    filter: drop-shadow(var(--img-shadow-color) 1px 1px 8px);
+    filter: drop-shadow(var(--img-shadow-color) 0px 6px 6px);
     display: block;
     margin: 0 auto;
     padding: 1rem;
