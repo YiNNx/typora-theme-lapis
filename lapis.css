@@ -20,7 +20,7 @@
     /* h2 Span Color */
     --block-bg-color: #f6f8fa;
     /* Block Background */
-    --img-shadow-color: #d2dff4;
+    --img-shadow-color: #e3e8f0;
 
     /* Overwrite of Typora Base Color */
     --search-hit-bg-color: var(--select-text-bg-color);
@@ -383,6 +383,7 @@ li.md-list-item {
 /*
  * Img
  */
+
 #write img {
     margin: 0 auto;
     max-width: 100%;
@@ -390,11 +391,10 @@ li.md-list-item {
 
 #write p>.md-image:only-child:not(.md-img-error) img,
 #write p>img:only-child {
-    filter: drop-shadow(var(--img-shadow-color) 0px 0px 8px);
-    border-radius: 3rem;
+    filter: drop-shadow(var(--img-shadow-color) 1px 1px 8px);
     display: block;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /*
