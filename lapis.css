@@ -678,7 +678,7 @@ pre.md-fences-advanced.md-focus .md-fences-adv-panel {
     width: 100%;
     background-size: 40px;
     background-repeat: no-repeat;
-    background-color: #282c34;
+    /* background-color: #282c34; */
     margin-bottom: -7px;
     border-radius: 5px;
     background-position: 10px 10px;
