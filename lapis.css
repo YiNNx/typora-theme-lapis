@@ -432,7 +432,6 @@ li.md-list-item {
 #write table tr th {
     font-family: SourceHanSerifCN;
     text-align: center;
-    min-width: 10rem;
     font-weight: bold;
     color: var(--primary-color);
 }
