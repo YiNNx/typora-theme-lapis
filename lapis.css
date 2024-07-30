@@ -858,3 +858,7 @@ header,
     background-color: var(--recent-file-panel-n-bg-color);
     color: var(--recent-file-panel-n-color);
 }
+
+.export-detail, .export-item.active, .export-items-list-control {
+    width: 75%;
+}
