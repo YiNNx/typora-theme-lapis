@@ -364,6 +364,20 @@ li.md-list-item {
     background: var(--block-bg-color);
 }
 
+.md-alert {
+    display: block;
+    overflow: auto;
+    border-left: 3px solid var(--primary-color);
+    padding: 0px 30px 15px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: var(--block-bg-color);
+}
+
+.md-alert-text-container {
+    font-size: 1.2em;
+}
+
 /*
  * Inline code
  */

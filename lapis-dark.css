@@ -69,7 +69,7 @@ mark {
  * Quote
  */
 
-#write blockquote {
+#write blockquote,.md-alert {
     background: var(--quote-block-bg-color);
 }
 
