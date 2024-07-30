@@ -331,3 +331,7 @@ cm-s-inner .cm-link,
 ::-webkit-scrollbar-thumb {
     background: var(--block-bg-color);
 }
+
+.export-detail, .export-item.active, .export-items-list-control {
+    background: #2A2E35 !important;
+}
