@@ -529,24 +529,19 @@ hr {
     margin-bottom: 2rem;
 }
 
-/* 勾选后的样式 */
-.task-list-item input:checked::before {
-    background-color: var(--primary-color); 
-    border: 1px solid var(--primary-color); 
-}
-
 /* 勾选后的勾号 */
 .task-list-item input:checked::after {
     content: '';
     position: absolute;
     left: 4.2px; /* 根据需要调整 */
-    bottom: 0px; /* 根据需要调整 */
+    bottom: 0.5px; /* 根据需要调整 */
     width: 6.5px; /* 根据需要调整 */
     height: 9.8px; /* 根据需要调整 */
-    border: solid white;
+    border: solid var(--primary-color);
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
 }
+
 
 /*
  * Sidebar
