@@ -190,7 +190,7 @@ mark {
 /* 
  * Paragraph
  */
-
+/* 
 #write+p,
 #write blockquote p {
     font-size: 1.1rem;
@@ -199,7 +199,7 @@ mark {
     margin: 0;
     line-height: 1.8rem;
     color: var(--text-color);
-}
+}  */
 
 /*
  * Header
@@ -355,7 +355,7 @@ li.md-list-item {
  */
 #write blockquote {
     display: block;
-    font-size: .9em;
+    font-size: 12pt;
     overflow: auto;
     border-left: 3px solid var(--primary-color);
     padding: 15px 30px 15px 20px;
@@ -517,30 +517,35 @@ hr {
 .task-list-item input::before {
     content: "";
     display: inline-block;
-    width: 1.0125rem;
-    height: 1.0125rem;
+    width: 1.2rem;
+    height: 1.2rem;
     vertical-align: middle;
     text-align: center;
     border: 1px solid var(--marker-color);
-    border-radius: 1.2rem;
+    border-radius: 1.6rem;
     background-color: #fdfdfd;
     margin-left: -0.1rem;
     margin-right: 0.1rem;
-    margin-top: -.6rem;
+    margin-bottom: 2rem;
 }
 
+/* 勾选后的样式 */
 .task-list-item input:checked::before {
-    content: '✓';
-    font-weight: bold;
-    -webkit-text-stroke: 1px var(--primary-color);
-    color: var(--primary-color);
-    background-color: var(--bg-color);
-    font-size: 0.75rem;
-    line-height: 0.8rem;
+    background-color: var(--primary-color); 
+    border: 1px solid var(--primary-color); 
 }
 
-blockquote .task-list-item input::before {
-    margin-top: .2rem;
+/* 勾选后的勾号 */
+.task-list-item input:checked::after {
+    content: '';
+    position: absolute;
+    left: 4.2px; /* 根据需要调整 */
+    bottom: 0px; /* 根据需要调整 */
+    width: 6.5px; /* 根据需要调整 */
+    height: 9.8px; /* 根据需要调整 */
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
 }
 
 /*
