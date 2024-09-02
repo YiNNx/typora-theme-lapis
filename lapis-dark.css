@@ -73,6 +73,53 @@ mark {
     background: var(--quote-block-bg-color);
 }
 
+.md-alert-text-note {
+    color: #83a4c4;
+}
+
+.md-alert.md-alert-note {
+    background-color: var(--quote-block-bg-color);
+    border-left-color: #83a4c4;
+}
+
+.md-alert-text-tip {
+    color: #81b3a7;
+}
+
+.md-alert.md-alert-tip {
+    background-color: var(--quote-block-bg-color);
+    border-left-color: #81b3a7;
+}
+
+.md-alert-text-important {
+    color: #968abd;
+}
+
+.md-alert.md-alert-important {
+    background-color: var(--quote-block-bg-color);
+    border-left-color: #968abd;
+}
+
+.md-alert-text-caution {
+    color: #b8797e;
+}
+
+.md-alert.md-alert-caution {
+    background-color: var(--quote-block-bg-color);
+    border-left-color: #b8797e;
+}
+
+.md-alert-text-warning {
+    color: #b3a17c;
+}
+
+.md-alert.md-alert-warning {
+    background-color: var(--quote-block-bg-color);
+    border-left-color: #b3a17c;
+}
+
+
+
 /*
  * Code
  */
