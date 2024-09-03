@@ -782,6 +782,7 @@ pre.CodeMirror-line {
 }
 
 .CodeMirror-linenumber {
+    white-space: nowrap;
     padding: 0 3px 0 5px;
     text-align: right;
     color: var(--primary-color);
