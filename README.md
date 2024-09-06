@@ -8,7 +8,7 @@
     Typora Theme - Lapis
 </h1>
 <p align="center">
-    🖊️ A clean and fresh Typora theme in blue tones
+    🖊️ A clean Typora theme in blue tones
 </p>
 <div align="center">
       <img alt="Releases Downloads" src="https://img.shields.io/github/downloads/YiNNx/typora-theme-lapis/total?style=for-the-badge&color=32b0d3">  
@@ -45,7 +45,7 @@ Also includes styles like YAML Front Matter, Math Script, TOC, etc.
 
 ## Features
 
-- Supports English & 简体中文 with fonts [Cantarell](https://fonts.google.com/specimen/Cantarell) and [思源宋体](https://source.typekit.com/source-han-serif/cn/).
+- Supports English & Chinese with fonts [Cantarell](https://fonts.google.com/specimen/Cantarell) and [Source Han Serif](https://source.typekit.com/source-han-serif/cn/).
 - Provides color schemes of code block inspired by VSCode's [Winter is Coming](https://vscodethemes.com/e/johnpapa.winteriscoming/winter-is-coming-light-no-italics), using the font [Jetbrains Mono](https://www.jetbrains.com/lp/mono/).
 - Both light and dark themes are available, with clean and rich Markdown styles.
 
