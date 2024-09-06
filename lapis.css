@@ -14,6 +14,8 @@
 
     --marker-color: #a2b6d4;
     /* List Marker */
+    --source-color: #a8a8a9;
+    /* for comment / link source */
     --highlight-color: #ffffb5c2;
     /* Highlight */
     --header-span-color: var(--primary-color);
@@ -111,31 +113,35 @@
 
 #write a {
     color: var(--primary-color);
+    /* font-family: "Cantarell"; */
 }
 
 #write .md-p a,
-#write .md-heading a {
+#write .md-heading a,
+[md-inline=url],
+[md-inline=link]>.md-content {
     word-wrap: break-word;
     text-decoration: underline solid;
-    margin: 2px;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
 
 #write h2.md-heading a {
     text-decoration: underline;
     border-bottom: 0;
+    text-underline-offset: 3px;
     text-decoration-thickness: 1.2px;
-    text-underline-offset: 2px;
 }
 
-[md-inline=url],
+.md-meta,
 [md-inline=link]>.md-content,
-[md-inline=image]>.md-meta {
+[md-inline=image]>.md-meta,
+.md-image>.md-meta {
     word-break: break-all;
     font-weight: normal;
-    font-family: 'JetBrainsMono';
-    padding-left: 0.15rem;
-    padding-right: 0rem;
-    color: var(--marker-color);
+    color: var(--source-color);
+    font-family: "JetBrainsMono";
+    font-size: 90%;
 }
 
 
@@ -561,7 +567,7 @@ sup.md-footnote {
  * Comment
  */
 .md-comment {
-    color: #a8a8a9;
+    color: var(--source-color);
     opacity: 1;
     font-family: 'JetBrainsMono';
 }
@@ -929,6 +935,8 @@ header,
     color: var(--recent-file-panel-n-color);
 }
 
-.export-detail, .export-item.active, .export-items-list-control {
+.export-detail,
+.export-item.active,
+.export-items-list-control {
     width: 75%;
 }
