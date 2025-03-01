@@ -59,12 +59,12 @@
 
 @font-face {
     font-family: "SourceHanSerifCN";
-    src: url('lapis/SourceHanSerifCN-Medium.otf');
+    src: url('lapis/SourceHanSerifCN-Medium.ttf');
 }
 
 @font-face {
     font-family: "SourceHanSerifCN";
-    src: url('lapis/SourceHanSerifCN-Bold.otf');
+    src: url('lapis/SourceHanSerifCN-Bold.ttf');
     font-weight: bold;
 }
 
