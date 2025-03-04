@@ -38,6 +38,10 @@
         --text-color: rgb(0, 0, 0);
     }
 
+    .typora-export {
+        margin: 2mm 6mm 0 6mm;
+    }
+
     ::-webkit-scrollbar-thumb {
         background-color: transparent !important;
     }
